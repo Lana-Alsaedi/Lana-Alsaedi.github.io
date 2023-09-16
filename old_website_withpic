@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content ="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title> Smooth Scroll Landing Page </title>
+	<link rel="stylesheet" href="style.css"/>
+	</div>
+       <a class="ct-btn-scroll" href="#about"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+    </div>
+
+</head>
+<body>
+	<header class= "landpage">
+		<h1> Ola Alsaedi </h1>
+		<h2> <span> </span></h2>
+	<div class="container">
+	</header>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+			<ul class="left">
+				<li><a href="#name">Ola Alsaedi</a></li>
+			</ul>
+			<ul class="right" class="navbar-collapse">
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+                <li><a href="#projects"> Projects </a></li>
+				<li><a href="#writing">Writing</a></li>
+				<li><a href="#portfolio">Travels </a></li>
+			</ul> 
+		</nav>
+		<section id="about">
+			<h1>About Me</h1> 
+			<div> <img id= "aboutme_img" src= "imgs/about_me.jpeg"> </div>
+			<div id = "p1">
+			 <p> Hi, I’m Ola Alsaedi! I'm currently a sophomore at the University of California, Berkeley studying Computer Science and Arabic. When I’m not coding, you can find me exploring the world, chasing sunsets, or perfecting my iced coffee recipe. </p>
+			</div>
+		</section>
+
+		<section id="passion">
+			<h1> Passions </h1>
+			<div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+                        <div> <img id = "globe" src= "imgs/noun_Earth_1437458.png" width = 23.5% height = 23.5% > </div>
+                        <h4 class="my-3">Travel</h4>
+                        <p class="text-muted">
+                            Indulging myself in other cultures, unfamiliar terrains and the thrill of ‘getting lost’ has allowed me to experience who I am. As I explore the world around me, I gain a deeper understanding of life from unique perspectives.
+						</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
+                        <div> <img id = "human" src= "travel.png" width = 23% height = 23% > </div>
+                        <h4 class="my-8">Tech and Human Rights</h4>
+                        <p class="text-muted"> 
+                        My passion lies in embedding the seeds of objectivity for better human rights research. The world can be changed by technology and I am eager to explore and share how these changes matter to humanitarian issues worldwide. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                        <div> <img id = "sunset" src= "imgs/noun_sunset_1502736.png" width = 24% height = 24% > </div>
+                        <h4 class="my-3">Sunsets</h4>
+                        <p class="text-muted">
+                            Gazing upon the cotton candy clouds and radiating hues as the sun sets truly represents the most beautiful moments in my life. A sunset embodies a promise of a new day in its fleeting beauty and epitome of natures beauty.
+						</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                        <div> <img id = "education" src= "imgs/noun_learn_1775581.png" width = 24% height = 24% > </div>
+                        <h4 class="my-3">Education</h4>
+                        <p class="text-muted"> 
+							Striving to expand my knowledge and gain new perspectives has allowed me to reach new heights within my life. Learning things from the world around me will always fuel my purpose in life and ambition to grow.
+						</p> 
+                    </div>
+                </div>
+            </div>
+	
+			
+		</section>
+
+
+		<section class="page-section" id="experience">
+			<h1> Experience </h1>
+            <div class="container">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="imgs/b.png"  alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 2020 - Present Day</h4>
+                                <h4 class="subheading">Founded the Cal Yemen Project at UC Berkeley</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">This summer I started the Cal Yemen Project to educate college students and raise awareness on the crisis in my homeland of Yemen. I built and launched my very first website - <a href="http://yemenproject.com" target="_blank"> yemenproject.com</a>. I also create digital content and manage a social media platform - <a href="https://www.instagram.com/calyemenproject/" target="_blank"> @calyemenproject</a> </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="imgs/thereview.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>November 2019 - Present Day</h4>
+                                <h4 class="subheading">Joined The Rights Stuff at UC Berkeley</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">My interests lie in this publication’s mission to create a space where all humans can read, write, and discuss their rights. In my involvement, I manage, improve, and develop the website. I also manage our social media accounts and write articles on the intersection of human rights and technology. Feel free to visit our website by clicking <a href="https://therightsstuff.org" target="_blank"> here</a>.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="imgs/SAT.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2016 - 2019</h4>
+                                <h4 class="subheading">Founded an SAT Program</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">I worked alongside a UC Berkeley alumni to create test material, facilitate meetings, and offer insightful tips to aid students in developing the necessary skills to excel on the SAT. After months of practice, almost every student in my program had their SAT scores boosted. Although their scores were merely numbers on a screen, these higher results inspired my peers to take initiative in their lives and realize their great capabilities to excel.</p></div>
+                        </div>
+                    </li>
+                     <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="imgs/gg.png"  alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>May 2017</h4>
+                                <h4 class="subheading">Google Ignite Fellowship</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">I collaborated with Google mentors and a local business owner to design advertisements for their business and increase their brand awareness. Within three months of self-learning and exploration, I successfully designed three advertisements and created digital marketing plans that aided the business in attracting new clients.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+		</section>
+
+
+		<section class="projects" id="projects">
+		<h1> Projects </h1>
+		 <div class="container">
+		<div class="row">
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box">
+                    <div class="icon"><img class="icon-img" src="imgs/earth.jpg"></div>
+                    <h4><a href="">World Engine</a></h4>
+                    <p>I collaborated with a peer to program an interactive world game, design a user interface and manage the enormous complexity that comes with building a large system. I created software that processed user input and keyboard presses to allow the user to explore and interact with the world.</p>
+                </div>
+            </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img class="icon-img" src="imgs/map.jpg"></div>
+            <h4><a href="">Bear Maps</a></h4>
+            <p>I built a web mapping application inspired by Google Maps. I worked with real-world mapping data to support a wide range of features including auto-complete, a feature that complete searches that you're beginning to type. I also programmed the back end - the web server that powers the API that the front end makes requests to.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img class="icon-img" src="imgs/tower.png"></div>
+            <h4><a href="">Ants</a></h4>
+            <p>I created a tower defense game called Ants Vs. SomeBees, inspired by PopCap Games' Plants Vs. Zombies. This project combines functional and object-oriented programming paradigms. The project also involves understanding, extending, and testing a large program in python.         </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img class="icon-img" src="imgs/scheme.png"></div>
+            <h4><a href="">Scheme</a></h4>
+            <p>I developed an interpreter for a subset of the Scheme language and implemented some small programs in Scheme. I learned that many issues can arise in the design of a programming language; many quirks of languages are byproducts of implementation decisions in interpreters.</p>
+          </div>
+        </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box">
+                    <div class="icon"> <img class="icon-img" src="imgs/sudok.png"> </div>
+                    <h4><a href="">Sudoku</a></h4>
+                    <p>I designed and programmed a Sudoku Game, a logic-based, combinatorial number-placement puzzle, with no prior coding experience. Throughout the course of this project, I learned the basics of python and program design as I worked alongside a peer.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box">
+                    <div class="icon"><img class="icon-img" src="imgs/cats.png"></div>
+                    <h4><a href="">Cats</a></h4>
+                    <p>I wrote a program in python which measures typing speed (inspired by typeracer). One main feature I implemented was autocorrect: a feature that attempts to correct the spelling of a word after a user types it through processing keyboard inputs. </p>
+                </div>
+            </div>
+    </div>
+    </div>
+		</section>
+
+		<section id="awards">
+			<h1>Awards</h1>
+			<div class="container">
+                <div class="row text-center">
+                	<div class="row text-center wow fadeInDown animated animated" data-wow-duration="3.0s" data-wow-delay="0s" style="visibility: visible; animation-duration: 5s; animation-delay: 0s;">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Cal Alumni Association - Leadership Award</h4>
+                        <div> <img src= "imgs/award.png" width = 32% height = 32% > </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Valedictorian </h4>
+                        <div> <img src= "imgs/award.png" width = 32% height = 32% > </div>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Google Ignite Award </h4>
+                        <div> <img src= "imgs/award.png" width = 32% height = 32% > </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+		</section>
+
+		<section id="writing">
+			<h1>Writing</h1>
+			<div class="column1">
+				<div class="writing-title"> A War Fiddled in the Hands of Foreign Players: Foreign Involvement Impact on the Humanitarian Crisis in the War in Yemen </div>
+				<div class="publish"> Published February 13, 2019 </div>
+				<img id= "writing-img" src= "imgs/n.png">
+				<p>A once thriving and prosperous country is currently being terrorized with the ordeals of war. Yemen, a Middle Eastern country situated in Southwest Asia, is witnessing the world's largest humanitarian crisis. Although foreign countries aim to end the dire situation in Yemen, external involvement has intensified the war and led to a political frenzy and societal upheaval.</p>
+                <a href="https://docs.google.com/document/d/14na2BDPrdIDMGypGrGVid8PwuIVboyJS2JsnmbPGkzc/edit?usp=sharing" target="_blank" class="button-hover"> READ MORE </a>
+            </div>
+			<div class="column2">
+				<div class="writing-title"> The Taste in Food Travels: Samin Nostrat’s Exploration of Culture through Cuisine </div>
+				<div class="publish2"> Published October 28, 2019 </div>
+				<img id= "writing-img" src= "imgs/sal.png">
+				<p>Through food travels in her Netflix series Salt, Fat, Acid, Heat Samin Nosrat explores the dynamic relationship between food and culture. As Nostrat savors the exquisite properties of olive oil, cheese, and pasta ragu to explore the taste of fat in Northern Italy, she is able to bring this connection to life.</p>
+				<a href="https://docs.google.com/document/d/1Ojug_1_k3onvPf6tQa8fO4iV9-Z72dMR9jwbAPJZgfQ/edit?usp=sharing" target="_blank" class="button-hover"> READ MORE </a>
+			</div>
+		</div> 
+
+		</section>
+
+		<section class="page-section"id="portfolio">
+			<h1>Travels</h1>
+			<p>Welcome to my travel page! Here I share shots from places I have explored.</p>
+			 <div class="containers">
+                <div class="rows">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            
+                            <img class="img-fluid" src="imgs/IMG_9011.jpg" alt=""/>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Toronto, Canada</div>
+                                <div class="portfolio-caption-subheading text-muted">June 20, 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                             <img class="img-fluid" src="imgs/IMG_3584.jpeg" alt=""/>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Mostar, Bosnia</div>
+                                <div class="portfolio-caption-subheading text-muted">June 23, 2019</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                             <img class="img-fluid" src="imgs/IMG_6600.jpeg" alt=""/>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Jerusalem, Palestine</div>
+                                <div class="portfolio-caption-subheading text-muted">June 21, 2019</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <img class="img-fluid" src="imgs/IMG_3926.jpg" alt=""/>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Baku, Azerbajan</div>
+                                <div class="portfolio-caption-subheading text-muted">June 30, 2019</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                             <img class="img-fluid" src="imgs/IMG_8694.jpeg" alt=""/>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Mexico City, Mexico</div>
+                                <div class="portfolio-caption-subheading text-muted">April 19, 2019</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                           <img class="img-fluid" src="imgs/IMG_5109.jpg" alt=""/>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Sydney, Australia</div>
+                                <div class="portfolio-caption-subheading text-muted">April 20, 2018</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="travelpage.html" class="travel-page-button" target="_blank"> Visit my full travel page! </a>
+                </div>
+            </div>
+                
+		</section>
+	</div>
+</body>
+</html>
+
