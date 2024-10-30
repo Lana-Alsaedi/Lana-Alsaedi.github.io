@@ -129,17 +129,16 @@ section p {
 	background: rgba(0,0,0,0.7);
  }
 
-.timeline-panel {
-    text-align: left; /* Ensure default alignment for all timeline panels */
+ .timeline-panel {
+  text-align: left;
 }
 
-.timeline-inverted .timeline-panel {
-    text-align: right; /* This keeps the inverted items right-aligned */
+ .timeline-inverted .timeline-panel {
+  text-align: right; 
 }
 
-/* Add the following specific class for left-aligned items */
-.left-align {
-    text-align: left !important; /* Force left alignment */
+ .left-align {
+  text-align: left !important; /* Force left alignment */
 }
 
  .right {
