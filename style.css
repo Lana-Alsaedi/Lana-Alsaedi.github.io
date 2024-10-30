@@ -41,7 +41,7 @@ section p {
 
 @keyframes animate {
   25% {
-    content: 'Comp Sci & Data Sci Student';
+    content: 'Comp Sci Student';
   }
   50% {
     content: 'Human Rights Advocate';
